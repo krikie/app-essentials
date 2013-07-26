@@ -1,0 +1,109 @@
+{
+    "app": {
+        "package": "app-essentials",
+        "name": "Asustor App Framework",
+        "version": "0.1.01",
+        "visibility": true,
+        "priority": "optional",
+        "depends": [],
+        "conflicts": [],
+        "suggests": [],
+        "maintainer": "Charlie Bash",
+        "email": "root@staticpeer.com",
+        "website": "http://www.asustor.com/",
+        "architecture": "x86-64",
+        "firmware": "0.6.0",
+        "description": "App Essentials Provides the framework of essential tools to help make app and mod development easier.",
+        "changes": "bash, captoinfo, curl, file, htop, infotocap, ncursesw5-config, pkill, ps    reset  skill  tabs  tload  tput  unrar   w       zipmerge bashbug  clear      curl-config  free  infocmp  nano       pgrep             
+pmap   pwdx, rnano, snice, tic, toe, tset, vmstat, zipcmp, ziptorrent",
+        "tags": ["bash"
+        ]
+    },
+    "install": {
+
+    },
+    "desktop": {
+        "icon": {
+            "type": "internal",
+            "title": "App Essentials",
+            "js": [
+                "appessentials.js"
+            ],
+            "module": "AS.ARC.apps.app-essentials.main",
+            "langTag": "APP_ESSENTIALS"
+        },
+        "privilege": {
+            "accessible": "administrators",
+            "customizable": true
+        }
+    },
+    "install": {
+        "link": {
+            "/bin": [
+                "bash",
+                "bashbug",
+                "captoinfo",
+                "clear",
+                "curl",
+                "curl-config",
+                "file",
+                "htop",
+                "infcmp",
+                "nano",
+                "ncursesw5-config",
+                "pgrep",
+                "pkill",
+                "pmap",
+                "ps",
+                "pwdx",
+                "reset",
+                "rnano",
+                "skill",
+                "snice",
+                "tabs",
+                "tic",
+                "tload",
+                "toe",
+                "tput",
+                "tset",
+                "unrar",
+                "w",
+                "vmstat",
+                "zipcmp",
+                "zipmerge",
+                "ziptorrent"
+            ],
+            "/lib": [
+                "libcurl.a",
+                "libformw_g.a",
+                "libmagic.so*",
+                "libmenuw.a",
+                "libmenuw.so*",
+                "libncursesw.a",
+                "libncursesw.so*",
+                "libpanelw.a",
+                "libpanelw.so*",
+                "libz.a",
+                "libzip.so*",
+                "libz.so",
+                "libcurl.la",
+                "libformw.so*",
+                "libmagic.a",
+                "libmenuw_g.a",
+                "libncurses++w_g.a",
+                "libpanelw_g.a",
+                "libzip.a",
+                "libzip.so*",
+                "libcurl.so*",
+                "libformw.a",
+                "libmagic.la",
+                "libmagic.so*",
+                "libncurses++w.a",
+                "libncursesw_g.a",
+                "libproc-3.2.8.so*",
+                "libzip.la",
+                "terminfo"
+            ]
+        }
+    }
+}
